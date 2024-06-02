@@ -17,6 +17,23 @@
   border: 3px solid white;
 }
 
+.thumb:hover {
+  opacity: 0.5;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.faded {
+  animation: fadeIn 0.5s;
+}
+
 #container::after {
   content: '';
   display: table;
